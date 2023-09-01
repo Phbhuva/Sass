@@ -1,0 +1,321 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.cantainer{
+    width: 1320px;
+    margin: auto;
+}
+$bgcolor: #641D2F;
+$fontf:'Roboto', sans-serif;
+$subtitle:black;
+$title:white;
+
+@mixin wi{
+    width: 100%;
+    height: 50px;
+}
+@mixin dja{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin dj{
+    display: flex;
+    justify-content: space-between;
+}
+@mixin btn1{
+    height: 50px;
+    width: 150px;
+    background-color: #641D2F;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    font-weight: 600;
+    align-items: center;
+    border: none;
+    border-radius: 12px
+}
+@mixin btn-ho{
+    background-color: white;
+    border: 2px solid #641D2F;
+    color: #641D2F;
+}
+@mixin heding{
+    font-size: 40px;
+    padding-top: 80px;
+    font-family: $fontf;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center
+}
+.box1{
+    @include wi;
+    background-color: $bgcolor;
+    display: flex;
+    align-items: center;
+    padding-top: 13px;
+    .nav-ad{
+       gap: 12px;
+
+       p{
+        font-family: $fontf;
+        color: $title;
+        margin-bottom: 0px !important;
+       }
+    }
+    .nav-icon{
+        gap: 15px;
+    }
+}
+// ========== header ========== //
+.header{
+    background-color: #E7CBCB !important;
+    ul{
+        li{
+            font-family: $fontf;
+            color: $title;
+            font-weight: 500;
+        }
+    }
+    .btn{
+        @include btn1;
+    }
+    .btn:hover{
+        @include btn-ho;
+    }
+   
+   
+}
+// ============== main banner ========== //
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    top: 28%;
+    left: 12% !important;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: $title;
+    text-align: center;
+    .ban-text1{
+        font-size: 45px;
+        text-transform: uppercase;
+        font-weight: 600;
+        .ban-text2{
+            display: block;
+        }
+    }
+    .ban-text3{
+        font-size: 16px;
+        font-family: $fontf;
+        .ban-text4{
+            display: block;
+        }
+    }
+    .btn{
+        @include btn1;
+    }
+    .btn:hover{
+        @include btn-ho;
+    }
+
+}
+// ============ about ============== //
+@mixin about($fs){
+    font-size:$fs;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $title;
+}
+.ab-text1{
+     @include heding;
+
+}
+ .main-about{
+    .ab-img{
+        background-image: url(./img/about\ us.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 477px;
+        width: 424px;
+        margin-top: 30px;
+        padding-top: 38%;
+        padding-left: 35%;
+     }
+     .offer{
+        background-color: #641D2F;
+        height: 268px;
+        width: 268px;
+        border-radius: 50%;
+        box-shadow: rgba(255, 255, 255, 0.05) 0px 4px 16px, rgba(255, 255, 255, 0.05) 0px 8px 32px;
+
+        .ab-text2{
+           @include about(50px);
+            padding-top: 15px;
+            font-weight: 600;
+        }
+        .ab-text3{
+            @include about(24px)
+        }
+        .ab-text4{
+            @include about(30px)
+        }
+     }
+     .ab-text5{
+        font-size: 40px;
+        font-weight:500;
+        font-family: $fontf;
+        padding-top: 30px;
+        text-transform: uppercase;
+     }
+     .ab-text6{
+        font-size: 14px;
+        font-family: $fontf;
+        letter-spacing: 1px;
+     }
+     @mixin counter{
+        font-size: 34px;
+        font-family: $fontf;
+        margin-bottom: 0px !important;
+        text-align: center;
+        margin-top: 12px
+     }
+     .ab-ya{
+        @include counter;
+     }
+     .ab-ya1{
+        @include counter();
+
+     }
+     .btn{
+        @include btn1;
+        margin-top: 30px;
+     }
+     .btn:hover{
+        @include btn-ho;
+     }
+ }
+//  ================= The Amazing Clicks============= //
+.am-text1{
+    @include heding;
+}
+// ================= Our Expert Chefs ===============//
+.sub-ban{
+    background-color: #E7CBCB;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    .sub-text1{
+        @include heding;
+    }
+    .sub-text2{
+        font-size: 18px;
+        font-family: $fontf;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 0px !important;
+
+    }
+    .sub-text3{
+        font-size: 16px;
+        font-family: $fontf;
+        text-align: center;
+        color: #545454;
+    }
+    .sub-icon{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        .sb{
+            padding-left: 15px;
+        }
+    }
+}
+// ===================== blog ============= //
+.bl-text1{
+    @include heding;
+}
+.card{
+    border: none !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 38px !important;
+    margin-top: 30px;
+    .card-title{
+        font-family: $fontf !important;
+        font-size: 24px !important;
+    }
+    .card-text{
+        font-family: $fontf !important;
+        font-size: 14px !important;
+    }
+    .bl-btn{
+        @include btn1;
+    }
+    .bl-btn:hover{
+        @include btn-ho;
+    }
+}
+// ================ footer ================== //
+.footer{
+    background-color: #641D2F;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    padding-top: 80px;
+    .f-text1{
+        font-size: 14px;
+        color: $title;
+        font-family: $fontf;
+        padding-top: 15px;
+    }
+    .fo-ic{
+        font-size: 18px;
+        color: $title;
+        padding-left: 20px;
+    }
+    .fo-ico{
+        font-size: 18px;
+        color: $title;
+    }
+    .f-text2{
+        font-size: 24px;
+        color: $title;
+        font-family: $fontf;
+    }
+    .f-text3{
+        font-size: 16px;
+        color: $title;
+        font-family: $fontf;
+        margin-bottom: 0px !important;
+        padding-top: 8px;
+    }
+    .f-text4{
+        font-size: 18px;
+        font-family: $fontf;
+        color: $title;
+    }
+    .f-user{
+        gap: 12px;
+
+        .f-text5{
+            font-size: 14px;
+            color: $title;
+            font-family: $fontf;
+        }
+    }
+    .f-link{
+        background-color: #E7CBCB;
+        width: 100%;
+        height: 50px;
+        margin-top: 80px;
+
+        .f-l-text{
+            font-size: 16px;
+            font-family: $fontf;
+            margin-bottom: 0px !important;
+           
+        }
+    }
+}

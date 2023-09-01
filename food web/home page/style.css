@@ -1,0 +1,335 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.cantainer {
+  width: 1320px;
+  margin: auto;
+}
+
+.box1 {
+  width: 100%;
+  height: 50px;
+  background-color: #641D2F;
+  display: flex;
+  align-items: center;
+  padding-top: 13px;
+}
+.box1 .nav-ad {
+  gap: 12px;
+}
+.box1 .nav-ad p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-bottom: 0px !important;
+}
+.box1 .nav-icon {
+  gap: 15px;
+}
+
+.header {
+  background-color: #E7CBCB !important;
+}
+.header ul li {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 500;
+}
+.header .btn {
+  height: 50px;
+  width: 150px;
+  background-color: #641D2F;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  align-items: center;
+  border: none;
+  border-radius: 12px;
+}
+.header .btn:hover {
+  background-color: white;
+  border: 2px solid #641D2F;
+  color: #641D2F;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  top: 28%;
+  left: 12% !important;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: white;
+  text-align: center;
+}
+.carousel-caption .ban-text1 {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.carousel-caption .ban-text1 .ban-text2 {
+  display: block;
+}
+.carousel-caption .ban-text3 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.carousel-caption .ban-text3 .ban-text4 {
+  display: block;
+}
+.carousel-caption .btn {
+  height: 50px;
+  width: 150px;
+  background-color: #641D2F;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  align-items: center;
+  border: none;
+  border-radius: 12px;
+}
+.carousel-caption .btn:hover {
+  background-color: white;
+  border: 2px solid #641D2F;
+  color: #641D2F;
+}
+
+.ab-text1 {
+  font-size: 40px;
+  padding-top: 80px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main-about .ab-img {
+  background-image: url(./img/about\ us.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 477px;
+  width: 424px;
+  margin-top: 30px;
+  padding-top: 38%;
+  padding-left: 35%;
+}
+.main-about .offer {
+  background-color: #641D2F;
+  height: 268px;
+  width: 268px;
+  border-radius: 50%;
+  box-shadow: rgba(255, 255, 255, 0.05) 0px 4px 16px, rgba(255, 255, 255, 0.05) 0px 8px 32px;
+}
+.main-about .offer .ab-text2 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 15px;
+  font-weight: 600;
+}
+.main-about .offer .ab-text3 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+.main-about .offer .ab-text4 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+.main-about .ab-text5 {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+.main-about .ab-text6 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+.main-about .ab-ya {
+  font-size: 34px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0px !important;
+  text-align: center;
+  margin-top: 12px;
+}
+.main-about .ab-ya1 {
+  font-size: 34px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0px !important;
+  text-align: center;
+  margin-top: 12px;
+}
+.main-about .btn {
+  height: 50px;
+  width: 150px;
+  background-color: #641D2F;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  align-items: center;
+  border: none;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+.main-about .btn:hover {
+  background-color: white;
+  border: 2px solid #641D2F;
+  color: #641D2F;
+}
+
+.am-text1 {
+  font-size: 40px;
+  padding-top: 80px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.sub-ban {
+  background-color: #E7CBCB;
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
+}
+.sub-ban .sub-text1 {
+  font-size: 40px;
+  padding-top: 80px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+.sub-ban .sub-text2 {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 0px !important;
+}
+.sub-ban .sub-text3 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #545454;
+}
+.sub-ban .sub-icon {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.sub-ban .sub-icon .sb {
+  padding-left: 15px;
+}
+
+.bl-text1 {
+  font-size: 40px;
+  padding-top: 80px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card {
+  border: none !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 38px !important;
+  margin-top: 30px;
+}
+.card .card-title {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 24px !important;
+}
+.card .card-text {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 14px !important;
+}
+.card .bl-btn {
+  height: 50px;
+  width: 150px;
+  background-color: #641D2F;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  align-items: center;
+  border: none;
+  border-radius: 12px;
+}
+.card .bl-btn:hover {
+  background-color: white;
+  border: 2px solid #641D2F;
+  color: #641D2F;
+}
+
+.footer {
+  background-color: #641D2F;
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
+  padding-top: 80px;
+}
+.footer .f-text1 {
+  font-size: 14px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding-top: 15px;
+}
+.footer .fo-ic {
+  font-size: 18px;
+  color: white;
+  padding-left: 20px;
+}
+.footer .fo-ico {
+  font-size: 18px;
+  color: white;
+}
+.footer .f-text2 {
+  font-size: 24px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.footer .f-text3 {
+  font-size: 16px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0px !important;
+  padding-top: 8px;
+}
+.footer .f-text4 {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.footer .f-user {
+  gap: 12px;
+}
+.footer .f-user .f-text5 {
+  font-size: 14px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.footer .f-link {
+  background-color: #E7CBCB;
+  width: 100%;
+  height: 50px;
+  margin-top: 80px;
+}
+.footer .f-link .f-l-text {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0px !important;
+}/*# sourceMappingURL=style.css.map */
